@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Header Start */
+.navbar{
+    background: rgba(0, 0, 0, 0.836);
+    background-blend-mode: color-burn;
+}
+.navbar-expand-lg .navbar-nav{
+    padding-left: 16%;
+}
+.order_now{
+    display: inline-block;
+    padding: 8px 30px;
+    background-color: #ffbe33;
+}
+/* Header End */
+
+/* Hero Section Start*/
+.hero-section{
+    background-image: url('../Images/hero-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 250px 0 350px 0;
+}
+/* Hero Section End*/
+
+/* popular-menu start */
+.popular-menu .order-1 .order-img img{
+    width: 250px;
+    height: 250px;
+}
+/* popular-menu end */
