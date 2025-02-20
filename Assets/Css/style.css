@@ -1,35 +1,55 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
+
 /* Header Start */
-.navbar{
+.navbar {
     background: rgba(0, 0, 0, 0.836);
     background-blend-mode: color-burn;
 }
-.navbar-expand-lg .navbar-nav{
+
+.navbar-expand-lg .navbar-nav {
     padding-left: 16%;
 }
-.order_now{
+
+.order_now {
     display: inline-block;
     padding: 8px 30px;
     background-color: #ffbe33;
 }
+
 /* Header End */
 
 /* Hero Section Start*/
-.hero-section{
+.hero-section {
     background-image: url('../Images/hero-bg.jpg');
     background-position: center;
     background-size: cover;
     padding: 250px 0 350px 0;
 }
+
 /* Hero Section End*/
 
 /* popular-menu start */
-.popular-menu .order-1 .order-img img{
+.popular-menu .order-1 .order-img img,
+.popular-menu .order-2 .order-img img {
     width: 250px;
     height: 250px;
 }
+
 /* popular-menu end */
+.menu-card {
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: 25px 25px 42px #bababa,
+        -25px -25px 42px #ffffff;
+}
+
+
+
+.menu-card a {
+    height: 40px;
+    width: 40px;
+}
