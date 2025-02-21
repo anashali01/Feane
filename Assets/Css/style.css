@@ -53,3 +53,21 @@
     height: 40px;
     width: 40px;
 }
+
+.map{
+    padding: 120px 0px;
+}
+.card-img::before{
+        content: "";
+        position: absolute;
+        left: 9%;
+        top: 32%;
+        width: 20px;
+        height: 20px;
+        background-color: #ffbe33;
+        -webkit-transform: rotate(45deg) translateX(-50%);
+        transform: rotate(45deg) translateX(-50%);
+}
+.feedback{
+    padding-bottom: 80px;
+}
